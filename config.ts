@@ -18,7 +18,7 @@ type Config = {
 }
 
 export default {
-  baseURL: process.env.BASE_URL || 'https://api.openai.com',
+  baseURL: process.env.BASE_URL || 'https://sapi.onekey.asia',
   apiKey: process.env.OPEN_API_KEY.split(','),
   model: process.env.GPT_MODEL || 'gpt-3.5-turbo',
 
